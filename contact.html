@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        header{
+            background-color: rgb(125, 0, 250);
+            padding: 40px;
+            margin-bottom: 40px;
+        }
+        h1{
+            text-align: center;
+            margin: 40px;
+        }
+        body{
+            background-color: rgb(201, 247, 232);
+        }
+        .form-box{
+            background-color: white;
+            border: 0.5px solid gray;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 30px;
+            width: 400px;
+            height: 250px;
+            line-height: 50px;
+            overflow-y: hidden;
+        }
+        input{
+            border: none;
+            border-bottom: 0.2px solid gray;
+            width: 90%;
+            outline: none;
+        }
+        .buton{
+            margin: 30px auto ;
+            width: 100px;
+        }
+        .btn{
+            background-color: rgb(125, 0, 250);
+            padding: 15px;
+            font-size: 20px;
+        }
+        .btn a{
+            color: white;
+            text-decoration: none;
+        }
+        input::placeholder{
+            font-weight: 700;
+            font-size: 17px;
+        }
+        .links{
+            text-align: center;
+            font-size: 25px;
+        }
+        .link-tag{
+            color: white;
+            margin: 20px;
+            letter-spacing: 1px;
+            font-variant-caps: all-petite-caps;
+        }
+        footer{
+            background-color: black;
+            padding: 0px;
+            margin-top: 40px;
+            position: fixed;
+            width: 100%;
+            bottom: 0px;
+        }
+        .foot{
+            padding: 41px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="links">
+            <a href="index.html#start" class="link-tag">Trips</a>
+            <a href="about.html" class="link-tag">About</a>
+            <a href="contact.html" class="link-tag">Contact</a>
+        </div>
+    </header>
+    <h1>Wanna come on my next trip? Contact Me.</h1>
+    <form action="store.txt" class="form-box">
+        <div class="name">
+            <input type="text" class="fields" placeholder="Full Name">
+        </div>
+
+        <div class="mail">
+            <input type="email" name="" class="fields" placeholder="Email">
+        </div>
+
+        <div class="no">
+            <input type="tel" name="" class="fields" placeholder="Contact Number" required min="10" maxlength="10">
+        </div>
+
+        <div class="buton">
+            <button class="btn">
+                <a href="submitted.html">Submit</a>
+            </button>
+        </div>
+    </form>
+
+    <footer>
+        <div class="links foot">
+            <a href="index.html#start" class="link-tag">Trips</a>
+            <a href="about.html" class="link-tag">About</a>
+            <a href="contact.html" class="link-tag">Contact</a>
+        </div>
+    </footer>
+</body>
+</html>
